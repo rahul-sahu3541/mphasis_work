@@ -1,0 +1,25 @@
+package tests;
+
+
+
+
+
+public class ArithmeticTest {
+    @Test
+    public void testSum(){
+        int expectedResult =6;
+        Arithmetic arithmetic = new Arithmetic();
+        int actualResult = arithmetic.sum(2,4);
+        assertEquals(expectedResult,actualResult);
+    }
+
+
+    @Test
+    public void testMultiply(){
+        int expectedResult = 10;
+        Arithmetic arithmetic = new Arithmetic();
+        int actualResult = arithmetic.multiply(2,5);
+        assertEquals(expectedResult, actualResult);
+    }
+
+}

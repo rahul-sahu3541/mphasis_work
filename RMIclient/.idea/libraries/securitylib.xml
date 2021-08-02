@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="securitylib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/securitylib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
